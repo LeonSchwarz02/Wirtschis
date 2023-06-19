@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Gebärdensprache Übersetzer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Gebärdensprache Übersetzer</h1>
+    <nav>
+      <ul>
+        <li><a href="/">Startseite</a></li>
+        <li><a href="/lernen">Gebärdensprache Lernen</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="translation">
+      <h2>Übersetzung</h2>
+      <form id="translation-form">
+        <label for="text-input">Deutscher Text:</label>
+        <textarea id="text-input" rows="4" cols="50"></textarea>
+        <button type="submit">Übersetzen</button>
+      </form>
+      <div id="translation-result"></div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
